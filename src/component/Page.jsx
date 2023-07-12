@@ -28,9 +28,9 @@ const arr = [
     }
     ,
     {
-        name: "chetan",
+        name: "c",
         img: "https://img.lovepik.com/free-png/20220121/lovepik-penguin-animal-small-avatar-illustration-design-png-image_401570104_wh860.png",
-        langauge: "eng"
+        langauge: "eg"
     }
     ,
     {
@@ -57,13 +57,13 @@ const Page = () => {
     return (
                 <div className='belowdiv'>
                 {
-
                     arr.map((model)=>{
                         return (
                             <AiCard
                               name = {model.name}
                               imgg = {model.img}
                               lang = {model.langauge}
+                            //   voice = {model.voice}
                             />
                         )
                     })

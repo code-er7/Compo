@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Page from './component/Page'
 
 
 const App = () => {
   return (
-    <Page />
+    <div className="Ai-container">
+      <Page />
+    </div>
+    
   )
 }
 
