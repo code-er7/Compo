@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Page from './component/Page'
+import './App.css';
 
 
 const App = () => {

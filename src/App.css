@@ -1,0 +1,6 @@
+.Ai-container{
+    border: solid red 2px;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+}

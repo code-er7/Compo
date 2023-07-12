@@ -4,15 +4,22 @@
     background-color: plum;
 }
 
-/* .belowdiv{
-    height: 500px;
-    width:400px;
+.super-compon-ai{
+     width: 27%;
+     border: 2px solid red;
+}
+.belowdiv{
+    /* height: 200px; */
+    flex-wrap: wrap;
+    display: flex;
+    width:100%;
     overflow: auto;
     border: solid red 2px;
     background-color: plum;
    
-} */
+}
 .box {
+    /* display: inline; */
     background-color: white;
     display: flex;
     width: 175px;
@@ -52,3 +59,4 @@
      border-radius: none;
      border: none;
   }
+ 
